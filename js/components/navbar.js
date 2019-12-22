@@ -11,32 +11,47 @@ class Navbar extends React.Component {
 
 	render() {
 		return (
-			<nav class="white" role="navigation">
+			<nav class="grey darken-4 " role="navigation">
 				<div class="nav-wrapper container">
-					{/* <a id="logo-container" href="#" class="brand-logo center"> */}
-						<img src="logo.png" alt="btlogo" height="100" class="brand-logo" id="logo-container"/>
+					<a id="logo-container" href="#" class="brand-logo">
+						cal&lt;<span>hackathon</span>&gt;
+					</a>
+						{/* <img src="logo.png" alt="btlogo" height="100" class="brand-logo" id="logo-container"/> */}
+
 					{/* desktop navbar */}
 					<ul class="right hide-on-med-and-down">
 						<li>
-							<a href="#">Anasayfa</a>
+							<a href="index.html">Anasayfa</a>
 						</li>
 						<li>
-							<a href="#">Hakkımızda</a>
+							<a href="hackathon.html">Yarışma</a>
 						</li>
 						<li>
-							<a href="#">İletişim</a>
+							<a href="about.html">Hakkımızda</a>
+						</li>
+						<li>
+							<a href="contact.html">İletişim</a>
+						</li>
+						<li>
+							<a href="#">Başvur !</a>
 						</li>
 					</ul>
 					{/* mobile navbar */}
 					<ul id="nav-mobile" class="sidenav">
 						<li>
-							<a href="#">Anasayfa</a>
+							<a href="index.html">Anasayfa</a>
 						</li>
 						<li>
-							<a href="#">Hakkımızda</a>
+							<a href="hackathon.html">Yarışma</a>
 						</li>
 						<li>
-							<a href="#">İletişim</a>
+							<a href="about.html">Hakkımızda</a>
+						</li>
+						<li>
+							<a href="contact.html">İletişim</a>
+						</li>
+						<li>
+							<a href="#">Başvur !</a>
 						</li>
 					</ul>
 					<a href="#" data-target="nav-mobile" class="sidenav-trigger">

@@ -6,61 +6,68 @@
  * Made By MaterializeCSS.com
  */
 
-nav, nav ul, nav ul a{
-  height:100px;
-  line-height: 100px;
+nav,
+nav ul,
+nav ul a {
+	height: 100px;
+	line-height: 100px;
+	font-weight: 500;
+	font-size: large;
 }
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+	color: rgb(255, 255, 255);
 }
-
-.brand-logo{
-  margin-top: 2px;
+nav ul a:hover,
+nav:hover {
+	background-color: #444444;
+}
+.brand-logo {
+	margin-top: 2px;
 }
 
 p {
-  line-height: 2rem;
+	line-height: 2rem;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+	color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255, 255, 255, 0.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+.parallax-container .section {
+	width: 100%;
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#index-banner .section {
+		top: 0;
+	}
 }
 
 .icon-block {
-  padding: 0 15px;
+	padding: 0 15px;
 }
 .icon-block .material-icons {
-  font-size: inherit;
+	font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+	margin: 0;
 }
