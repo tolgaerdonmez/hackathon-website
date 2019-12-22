@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>cal&lt;hackathon&gt;</title>
+
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+		<!-- React.js -->
+		<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+		<style>
+			.parallax-container {
+				min-height: 180px;
+				line-height: 0;
+				height: auto;
+				color: rgba(255, 255, 255, 0.9);
+			}
+		</style>
+	</head>
+	<body>
+		<!-- navbar -->
+		<div id="navbar_container"></div>
+
+		<div class="custom-parallax parallax-container">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<h1 class="header">Hackathon</h1>
+				</div>
+			</div>
+			<div class="parallax"><img src="home.jpg" /></div>
+		</div>
+
+		<!-- footer -->
+		<div id="footer_container"></div>
+
+		<!-- Materialize's js -->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+
+		<script src="./js/components/navbar.js" type="text/babel"></script>
+		<script src="./js/components/footer.js" type="text/babel"></script>
+	</body>
+</html>
