@@ -14,10 +14,29 @@
 		<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+		<style>
+			.parallax-container {
+				min-height: 100px;
+				line-height: 0;
+				height: auto;
+				color: rgba(255, 255, 255, 0.9);
+			}
+		</style>
 	</head>
 	<body>
 		<!-- navbar -->
 		<div id="navbar_container"></div>
+
+		<div class="custom-parallax parallax-container">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<h1 class="header"><i>&lt;hakkımızda&gt;</i></h1>
+				</div>
+			</div>
+			<div class="parallax"><img class="heading-banner" /></div>
+		</div>
+
 		<!-- footer -->
 		<div id="footer_container"></div>
 

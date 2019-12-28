@@ -71,3 +71,11 @@ p {
 footer.page-footer {
 	margin: 0;
 }
+
+.p_content {
+	font-size: large;
+}
+
+.heading-banner {
+	content: url(../home.jpg);
+}
