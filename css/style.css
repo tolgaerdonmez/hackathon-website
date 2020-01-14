@@ -79,3 +79,12 @@ footer.page-footer {
 .heading-banner {
 	content: url(../home.jpg);
 }
+
+.justify-text{
+	text-align: justify;
+	text-justify:  inter-word;
+}
+.font-size{
+	font-size: 200%;
+	text-align: 100%;
+}
