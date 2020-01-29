@@ -1,202 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>cal&lt;hackathon&gt;</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>cal&lt;hackathon&gt;</title>
 
-        <!-- CSS  -->
-        <link
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-            rel="stylesheet"
-        />
-        <link
-            href="css/materialize.css"
-            type="text/css"
-            rel="stylesheet"
-            media="screen,projection"
-        />
-        <link
-            href="css/style.css"
-            type="text/css"
-            rel="stylesheet"
-            media="screen,projection"
-        />
-        <!-- React.js -->
-        <script
-            crossorigin
-            src="https://unpkg.com/react@16/umd/react.production.min.js"
-        ></script>
-        <script
-            crossorigin
-            src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
-        ></script>
-        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    </head>
-    <body>
-        <!-- navbar -->
-        <div id="navbar_container"></div>
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<!-- React.js -->
+		<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	</head>
+	<body>
+		<!-- navbar -->
+		<div id="navbar_container"></div>
 
-        <div id="index-banner" class="parallax-container">
-            <div class="section no-pad-bot">
-                <div class="container">
-                    <br /><br />
-                    <h1 class="header center white-text ">
-                        &lt; İstanbul'un İlk Liselerarası Hackathon Etkinliği
-                        Cağaloğlu Anadolu Lisesinde ! &gt;
-                    </h1>
-                    <div class="row center">
-                        <h5 class="header col s12 medium">
-                            <strong
-                                >7-8-9 Nisan 2020 , @Cağaloğlu Anadolu
-                                Lisesi</strong
-                            >
-                        </h5>
-                    </div>
-                    <div class="row center">
-                        <h5 class="header col s12 medium">
-                            <strong>public void newEvent(CAL Hackathon)</strong>
-                        </h5>
-                    </div>
-                    <div class="row center">
-                        <a
-                            href="#"
-                            id="download-button"
-                            class="btn-large waves-effect waves-dark white darken-3"
-                            style="color:darkred"
-                            ><strong>Hemen Başvur!</strong></a
-                        >
-                    </div>
-                    <br /><br />
-                </div>
-            </div>
-            <div class="parallax">
-                <img src="home.jpg" alt="Unsplashed background img 1" />
-            </div>
-        </div>
+		<div id="index-banner" class="parallax-container">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<br /><br />
+					<h1 class="header center white-text ">
+						&lt; İstanbul'un İlk Liselerarası Hackathon Etkinliği Cağaloğlu Anadolu Lisesinde ! &gt;
+					</h1>
+					<div class="row center">
+						<h5 class="header col s12 medium">
+							<strong>7-8-9 Nisan 2020 , @Cağaloğlu Anadolu Lisesi</strong>
+						</h5>
+					</div>
+					<div class="row center">
+						<h5 class="header col s12 medium">
+							<strong>public void newEvent(CAL Hackathon)</strong>
+						</h5>
+					</div>
+					<div class="row center">
+						<a
+							href="#"
+							id="download-button"
+							class="btn-large waves-effect waves-dark white darken-3"
+							style="color:darkred"
+							><strong>Hemen Başvur!</strong></a
+						>
+					</div>
+					<br /><br />
+				</div>
+			</div>
+			<div class="parallax">
+				<img src="home.jpg" alt="Unsplashed background img 1" />
+			</div>
+		</div>
 
-        <div class="container">
-            <div class="section">
-                <!--   Icon Section   -->
-                <div class="row">
-                    <div class="col s12 m4">
-                        <div class="icon-block">
-                            <h2 class="center" style="color:darkred">
-                                <i class="material-icons">group</i>
-                            </h2>
-                            <h5 class="center">Takımını Oluştur</h5>
+		<div class="container">
+			<div class="section">
+				<!--   Icon Section   -->
+				<div class="row">
+					<div class="col s12 m4">
+						<div class="icon-block">
+							<h2 class="center" style="color:darkred">
+								<i class="material-icons">group</i>
+							</h2>
+							<h5 class="center">Takımını Oluştur</h5>
 
-                            <p class="light justify-text">
-                                Başvuru formundan bireysel veya takım halinde
-                                başvurunuzu yapabilirsiniz. Eğer bireysel olarak
-                                başvuru yaptıysanız etkinlik günü diğer bireysel
-                                katılımcılar ile bir takım oluşturmanız
-                                gerekmektedir.<!-- SSS için <br>"Tanımadığım insanlarla nasıl bir takım oluşturabilirim?"
+							<p class="light justify-text">
+								Başvuru formundan bireysel veya takım halinde başvurunuzu yapabilirsiniz. Eğer bireysel
+								olarak başvuru yaptıysanız etkinlik günü diğer bireysel katılımcılar ile bir takım
+								oluşturmanız gerekmektedir.<!-- SSS için <br>"Tanımadığım insanlarla nasıl bir takım oluşturabilirim?"
                                 diye düşünüyorsanız, takımlar oluşturulmadan yapılacak
                                 Ice Breaking etkinliğinde diğer katılımcılarla kaynaşarak
                                 takımların oluşmasında daha etkili seçimler yapabilirsiniz.-->
-                                Etkinlikte 4 kişilik 8 takım yer alacaktır.
-                            </p>
-                        </div>
-                    </div>
+								Etkinlikte 4 kişilik 8 takım yer alacaktır.
+							</p>
+						</div>
+					</div>
 
-                    <div class="col s12 m4">
-                        <div class="icon-block">
-                            <h2 class="center" style="color:darkred">
-                                <i class="material-icons">palette</i>
-                            </h2>
-                            <h5 class="center">Projeni Tasarla</h5>
+					<div class="col s12 m4">
+						<div class="icon-block">
+							<h2 class="center" style="color:darkred">
+								<i class="material-icons">palette</i>
+							</h2>
+							<h5 class="center">Projeni Tasarla</h5>
 
-                            <p class="light justify-text">
-                                Önceden veya etkinlik alanında oluşturduğunuz
-                                takımlarınızla size etkinlik günü verilecek olan
-                                36 saat içerisinde temaya uygun bir fikir üretip
-                                takımınız arasında görev paylaşımı yapmalısınız.
-                                Ardından projenizi hayata geçirebilirsiniz.
-                            </p>
-                        </div>
-                    </div>
+							<p class="light justify-text">
+								Önceden veya etkinlik alanında oluşturduğunuz takımlarınızla size etkinlik günü
+								verilecek olan 36 saat içerisinde temaya uygun bir fikir üretip takımınız arasında görev
+								paylaşımı yapmalısınız. Ardından projenizi hayata geçirebilirsiniz.
+							</p>
+						</div>
+					</div>
 
-                    <div class="col s12 m4">
-                        <div class="icon-block">
-                            <h2 class="center" style="color:darkred">
-                                <i class="material-icons">code</i>
-                            </h2>
-                            <h5 class="center">Kodlayıp hayata geçir!</h5>
+					<div class="col s12 m4">
+						<div class="icon-block">
+							<h2 class="center" style="color:darkred">
+								<i class="material-icons">code</i>
+							</h2>
+							<h5 class="center">Kodlayıp hayata geçir!</h5>
 
-                            <p class="light justify-text">
-                                Temaya uygun bir fikir ürettikten sonra
-                                istediğiniz herhangi bir aracı kullanarak hayata
-                                geçirmelisiniz. Kodun tamamlanmış olması,
-                                GitHub'a aktarılmış olması, tanıtımın(sunumun)
-                                kalitesi projenin değerlendirilmesinde rol
-                                oynayacaktır.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row center">
-            <h2
-                class="header col s12"
-                style="color: darkred;"
-            >
-                Sponsorlarımız;
-            </h2>
-        </div>
+							<p class="light justify-text">
+								Temaya uygun bir fikir ürettikten sonra istediğiniz herhangi bir aracı kullanarak hayata
+								geçirmelisiniz. Kodun tamamlanmış olması, GitHub'a aktarılmış olması, tanıtımın(sunumun)
+								kalitesi projenin değerlendirilmesinde rol oynayacaktır.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <div class="container">
-            <div class="section">
-                <div class="row">
-                    <div class="col s12 center">
-                        <h3><i class="mdi-content-send brown-text"></i></h3>
-                        <h4>Contact Us</h4>
-                        <p class="left-align light">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nullam scelerisque id nunc nec volutpat. Etiam
-                            pellentesque tristique arcu, non consequat magna
-                            fermentum ac. Cras ut ultricies eros. Maecenas eros
-                            justo, ullamcorper a sapien id, viverra ultrices
-                            eros. Morbi sem neque, posuere et pretium eget,
-                            bibendum sollicitudin lacus. Aliquam eleifend
-                            sollicitudin diam, eu mattis nisl maximus sed. Nulla
-                            imperdiet semper molestie. Morbi massa odio,
-                            condimentum sed ipsum ac, gravida ultrices erat.
-                            Nullam eget dignissim mauris, non tristique erat.
-                            Vestibulum ante ipsum primis in faucibus orci luctus
-                            et ultrices posuere cubilia Curae;
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<div class="parallax-container valign-wrapper" style="min-height: 100px;">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<div class="row center">
+						<!-- <h5 class="header col s12 light">
+							A modern responsive front-end framework based on Material Design
+						</h5> -->
+						<h1 class="header col s12 light">Etkinlik Programı</h1>
+					</div>
+				</div>
+			</div>
+			<div class="parallax">
+				<img src="background3.jpg" alt="Unsplashed background img 3" />
+			</div>
+		</div>
 
-        <div class="parallax-container valign-wrapper">
-            <div class="section no-pad-bot">
-                <div class="container">
-                    <div class="row center">
-                        <h5 class="header col s12 light">
-                            A modern responsive front-end framework based on
-                            Material Design
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="parallax">
-                <img src="background3.jpg" alt="Unsplashed background img 3" />
-            </div>
-        </div>
+		<div>
+			<div class="container row valign-wrapper">
+				<div class="col s3 center flow-text">
+					8. Nisan 2020 Çarşamba
+				</div>
+				<table class="responsive-table highlight flow-text col s9">
+					<thead>
+						<tr>
+							<th style="text-align: left;"><i class="material-icons">access_time</i></th>
+							<th style="text-align: left;"><i class="material-icons">date_range</i></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th style="text-align: left;">20.00</th>
+							<th>Açılış</th>
+						</tr>
+						<tr>
+							<th style="text-align: left;">20.40</th>
+							<th>Temanın Açıklanması</th>
+						</tr>
+						<tr>
+							<th style="text-align: left;">22.00</th>
+							<th>Hackathonun başlaması</th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="container row valign-wrapper">
+				<div class="col s3 center flow-text">
+					9. Nisan 2020 Çarşamba
+				</div>
+				<table class="responsive-table highlight flow-text col s9">
+					<thead>
+						<tr>
+							<th style="text-align: left;"><i class="material-icons">access_time</i></th>
+							<th style="text-align: left;"><i class="material-icons">date_range</i></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th style="text-align: left;">01.00</th>
+							<th>Atıştırma</th>
+						</tr>
+						<tr>
+							<th style="text-align: left;">04.00</th>
+							<th>Kahvaltı</th>
+						</tr>
+						<tr>
+							<th style="text-align: left;">08.00</th>
+							<th>Kahvaltı</th>
+						</tr>
+						<tr>
+							<th style="text-align: left;">13.00</th>
+							<th>Öğlen Yemeği</th>
+						</tr>
+						<tr>
+							<th style="text-align: left;">19.00</th>
+							<th>Akşam Yemeği</th>
+						</tr>
+						<tr>
+							<th style="text-align: left;">24.00</th>
+							<th>Atıştırma</th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 
-        <!-- footer -->
-        <div id="footer_container"></div>
+		<!-- footer -->
+		<div id="footer_container"></div>
 
-        <!-- Materialize's js -->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
+		<!-- Materialize's js -->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
 
-        <script src="./js/components/navbar.js" type="text/babel"></script>
-        <script src="./js/components/footer.js" type="text/babel"></script>
-    </body>
+		<script src="./js/components/navbar.js" type="text/babel"></script>
+		<script src="./js/components/footer.js" type="text/babel"></script>
+	</body>
 </html>
