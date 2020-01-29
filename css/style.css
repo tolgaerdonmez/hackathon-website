@@ -88,3 +88,15 @@ footer.page-footer {
 	font-size: 200%;
 	text-align: 100%;
 }
+
+.tabs .tab a:hover {
+	background-color:rgb(255, 237, 237);
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+	background-color:rgb(255, 237, 237);
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+	background-color:darkred;
+} /*Color of underline*/
