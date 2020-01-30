@@ -9,7 +9,6 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
 		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
 		<!-- React.js -->
 		<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
@@ -20,20 +19,36 @@
 		<div id="navbar_container"></div>
 
 		<div id="index-banner" class="parallax-container">
-			<div class="section no-pad-bot">
+			<div class="section no-pad-bot no-mar-top">
 				<div class="container">
-					<br /><br />
-					<h1 class="header center white-text ">new calEvent&lt;hackathon&gt;</h1>
+					<h1 class="header center white-text">
+						&lt; İstanbul'un İlk Liselerarası Özgür Yazılım Hackathon'u Cağaloğlu Anadolu Lisesinde ! &gt;
+					</h1>
 					<div class="row center">
-						<h5 class="header col s12 medium">Cağaloğlu Anadolu Lisesi 1. İstanbul Liselerarası Hackathonu!</h5>
+						<h5 class="header col s12">
+							<strong>7-8-9 Nisan 2020 , @Cağaloğlu Anadolu Lisesi</strong>
+						</h5>
 					</div>
 					<div class="row center">
-						<a href="#" id="download-button" class="btn-large waves-effect waves-light red darken-2">Hemen Başvur!</a>
+						<h5 class="header col s12">
+							<strong>public void newEvent(CAL Hackathon)</strong>
+						</h5>
+					</div>
+					<div class="row center">
+						<a
+							href="#"
+							id="download-button"
+							class="btn-large waves-effect waves-dark white darken-3 disabled"
+							style="color:darkred"
+							><strong>Başvurularımız Yakında Açılacaktır!</strong></a
+						>
 					</div>
 					<br /><br />
 				</div>
 			</div>
-			<div class="parallax"><img src="home.jpg" alt="Unsplashed background img 1" /></div>
+			<div class="parallax">
+				<img src="home.jpg" alt="Unsplashed background img 1" />
+			</div>
 		</div>
 
 		<div class="container">
@@ -42,38 +57,49 @@
 				<div class="row">
 					<div class="col s12 m4">
 						<div class="icon-block">
-							<h2 class="center brown-text"><i class="material-icons">group</i></h2>
+							<h2 class="center" style="color:darkred">
+								<i class="material-icons">group</i>
+							</h2>
 							<h5 class="center">Takımını Oluştur</h5>
 
-							<p class="light">
-								We did most of the heavy lifting for you to provide a default stylings that incorporate our custom
-								components. Additionally, we refined animations and transitions to provide a smoother experience for
-								developers.
+							<p class="light justify-text">
+								Başvuru formundan bireysel veya takım halinde başvurunuzu yapabilirsiniz. Eğer bireysel
+								olarak başvuru yaptıysanız etkinlik günü diğer bireysel katılımcılar ile bir takım
+								oluşturmanız gerekmektedir.<!-- SSS için <br>"Tanımadığım insanlarla nasıl bir takım oluşturabilirim?"
+                                diye düşünüyorsanız, takımlar oluşturulmadan yapılacak
+                                Ice Breaking etkinliğinde diğer katılımcılarla kaynaşarak
+                                takımların oluşmasında daha etkili seçimler yapabilirsiniz.-->
+								Etkinlikte 4 kişilik 8 takım yer alacaktır.
 							</p>
 						</div>
 					</div>
 
 					<div class="col s12 m4">
 						<div class="icon-block">
-							<h2 class="center brown-text"><i class="material-icons">palette</i></h2>
+							<h2 class="center" style="color:darkred">
+								<i class="material-icons">palette</i>
+							</h2>
 							<h5 class="center">Projeni Tasarla</h5>
 
-							<p class="light">
-								By utilizing elements and principles of Material Design, we were able to create a framework that
-								incorporates components and animations that provide more feedback to users. Additionally, a single
-								underlying responsive system across all platforms allow for a more unified user experience.
+							<p class="light justify-text">
+								Önceden veya etkinlik alanında oluşturduğunuz takımlarınızla size etkinlik günü
+								verilecek olan 36 saat içerisinde temaya uygun bir fikir üretip takımınız arasında görev
+								paylaşımı yapmalısınız. Ardından projenizi hayata geçirebilirsiniz.
 							</p>
 						</div>
 					</div>
 
 					<div class="col s12 m4">
 						<div class="icon-block">
-							<h2 class="center brown-text"><i class="material-icons">code</i></h2>
+							<h2 class="center" style="color:darkred">
+								<i class="material-icons">code</i>
+							</h2>
 							<h5 class="center">Kodlayıp hayata geçir!</h5>
 
-							<p class="light">
-								We have provided detailed documentation as well as specific code examples to help new users get started.
-								We are also always open to feedback and can answer any questions a user may have about Materialize.
+							<p class="light justify-text">
+								Temaya uygun bir fikir ürettikten sonra istediğiniz herhangi bir aracı kullanarak hayata
+								geçirmelisiniz. Kodun tamamlanmış olması, GitHub'a özgür yazılım kapsamına giren lisanslar ile aktarılmış olması, tanıtımın(sunumun)
+								kalitesi projenin değerlendirilmesinde rol oynayacaktır.
 							</p>
 						</div>
 					</div>
@@ -81,47 +107,129 @@
 			</div>
 		</div>
 
-		<div class="parallax-container valign-wrapper">
-			<div class="section no-pad-bot">
+		<div class="parallax-container valign-wrapper" style="min-height: 100px;">
+			<div class="section no-pad-bot no-mar-top">
 				<div class="container">
 					<div class="row center">
-						<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+						<h1 class="header col s12 light event_header">Etkinlik Programı</h1>
 					</div>
 				</div>
 			</div>
-			<div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2" /></div>
-		</div>
-
-		<div class="container">
-			<div class="section">
-				<div class="row">
-					<div class="col s12 center">
-						<h3><i class="mdi-content-send brown-text"></i></h3>
-						<h4>Contact Us</h4>
-						<p class="left-align light">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam
-							pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros
-							justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum
-							sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper
-							molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris,
-							non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-							Curae;
-						</p>
-					</div>
-				</div>
+			<div class="parallax">
+				<img src="schedule.jpeg.jpeg" alt="Unsplashed background img 3" />
 			</div>
 		</div>
 
-		<div class="parallax-container valign-wrapper">
-			<div class="section no-pad-bot">
-				<div class="container">
-					<div class="row center">
-						<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-					</div>
-				</div>
-			</div>
-			<div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3" /></div>
+	<div class="row">
+    	<div class="col s12">
+    	  <ul class="tabs z-depth-1 darkred ">
+    	    <li class="tab col s4"><a class="active" href="#8" style="color: darkred; font-size: larger;">8 Nisan 2020</a></li>
+    	    <li class="tab col s4"><a href="#9" style="color: darkred; font-size: larger;">9 Nisan 2020</a></li>
+    	    <li class="tab col s4"><a href="#10" style="color: darkred; font-size: larger;">10 Nisan 2020<a></li>
+    	  </ul>
+    	</div>
+    	<div id="8">
+			<table class="highlight flow-text black-text">
+    	    	<thead>
+    	    	    <tr>
+    	    	        <th style="text-align: left;"><i class="material-icons" style="font-size: 40px;">access_time</i></th>
+    	    	        <th style="text-align: left;"><i class="material-icons" style="font-size: 40px;">event</i></th>
+    	    	    </tr>
+    	    	</thead>
+    	    	<tbody>
+    	    	    <tr>
+    	    	        <th style="text-align: left;">20.00</th>
+    	    	        <th>Açılış</th>
+    	    	    </tr>
+    	    	    <tr>
+    	    	        <th style="text-align: left;">20.40</th>
+    	    	        <th>Temanın Açıklanması</th>
+    	    	    </tr>
+    	    	    <tr>
+    	    	        <th style="text-align: left;">21.00</th>
+    	    	        <th>Ice Breaking ve Takım Kurma</th>
+    	    	    </tr>
+    	    	    <tr>
+    	    	        <th style="text-align: left;">22.00</th>
+						<th>Hackathon Başlıyor!</th>
+					</tr>
+    	    	</tbody>
+			</table>
 		</div>
+
+		<div id="9">
+		<table class="highlight flow-text black-text">
+    	    <thead>
+    	        <tr>
+    	            <th style="text-align: left;"><i class="material-icons" style="font-size: 40px;">access_time</i></th>
+    	            <th style="text-align: left;"><i class="material-icons" style="font-size: 40px;">date_range</i></th>
+    	        </tr>
+    	    </thead>
+    	    <tbody>
+    	        <tr>
+    	            <th style="text-align: left;">01.00</th>
+    	            <th>Gece Atıştırmalığı</th>
+    	        </tr>
+    	        <tr>
+    	            <th style="text-align: left;">05.00</th>
+    	            <th>Gece Atıştırmalığı</th>
+    	        </tr>
+    	        <tr>
+    	            <th style="text-align: left;">09.00</th>
+    	            <th>Kahvaltı</th>
+    	        </tr>
+    	        <tr>
+    	            <th style="text-align: left;">14.00</th>
+    	            <th>Öğlen Yemeği</th>
+    	        </tr>
+    	        <tr>
+    	            <th style="text-align: left;">19.00</th>
+    	            <th>Akşam Yemeği</th>
+				</tr>
+				<tr>
+					<th style="text-align: left;">23.00</th>
+					<th>Gece Atıştırmalığı</th>
+				</tr>
+    	    </tbody>
+		</table>
+		</div>
+    	<div id="10">
+			<table class="highlight black-text flow-text">
+				<thead>
+					<tr>
+						<th style="text-align: left;"><i class="material-icons" style="font-size: 40px;">access_time</i></th>
+						<th style="text-align: left;"><i class="material-icons" style="font-size: 40px;">date_range</i></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th style="text-align: left;">03.00</th>
+						<th>Gece Atıştırmalığı</th>
+					</tr>
+					<tr>
+						<th style="text-align: left;">07.00</th>
+						<th>Kahvaltı</th>
+					</tr>
+					<tr>
+						<th style="text-align: left;">10.00</th>
+						<th>Yarışma Bitişi</th>
+					</tr>
+					<tr>
+						<th style="text-align: left;">10.30</th>
+						<th>Proje Sunumlarının Yapılması</th>
+					</tr>
+					<tr>
+						<th style="text-align: left;">13.30</th>
+						<th>Jüri Değerlendirme Süreci</th>
+					</tr>
+					<tr>
+						<th style="text-align: left;">15.30</th>
+						<th>Ödül Töreni ve Kapanış</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+    </div>
 
 		<!-- footer -->
 		<div id="footer_container"></div>
@@ -130,7 +238,6 @@
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="js/materialize.js"></script>
 		<script src="js/init.js"></script>
-
 		<script src="./js/components/navbar.js" type="text/babel"></script>
 		<script src="./js/components/footer.js" type="text/babel"></script>
 	</body>

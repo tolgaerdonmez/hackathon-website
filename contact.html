@@ -14,10 +14,44 @@
 		<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+		<style>
+			.parallax-container {
+				min-height: 100px;
+				line-height: 0;
+				height: auto;
+				color: rgba(255, 255, 255, 0.9);
+			}
+			.hover-card {
+				background-color: black;
+			}
+		</style>
 	</head>
 	<body>
 		<!-- navbar -->
 		<div id="navbar_container"></div>
+
+		<div class="custom-parallax parallax-container">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<h1 class="header in_parallax_header"><i>&lt;iletişim&gt;</i></h1>
+				</div>
+			</div>
+			<div class="parallax"><img class="heading-banner" src="home.jpg" /></div>
+		</div>
+		<div class="container row">
+			<div class="section">
+				<h6>Adres: Mollafenari, Bab-ı Ali Caddesi, No:1, 34120, Fatih/İstanbul</h6>
+				<h6>
+					Yarışma ile ilgili her şey için:
+					<a href="mailto:hackathon2020cal@gmail.com?" style="text-decoration-line: underline;"
+						><strong>hackathon2020cal@gmail.com</strong></a
+					>
+				</h6>
+			</div>
+			<div class="divider"></div>
+			<div id="contact_cards"></div>
+		</div>
 		<!-- footer -->
 		<div id="footer_container"></div>
 
@@ -28,5 +62,6 @@
 
 		<script src="./js/components/navbar.js" type="text/babel"></script>
 		<script src="./js/components/footer.js" type="text/babel"></script>
+		<script src="./js/components/contactCards.js" type="text/babel"></script>
 	</body>
 </html>

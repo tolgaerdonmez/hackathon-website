@@ -71,3 +71,51 @@ p {
 footer.page-footer {
 	margin: 0;
 }
+
+.p_content {
+	font-size: large;
+}
+
+.heading-banner {
+	content: url(../home.jpg);
+}
+
+.justify-text {
+	text-align: justify;
+	text-justify: inter-word;
+}
+.font-size {
+	font-size: 200%;
+	text-align: 100%;
+}
+
+.tabs .tab a:hover {
+	background-color: rgb(255, 237, 237);
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+	background-color: rgb(255, 237, 237);
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+	background-color: darkred;
+} /*Color of underline*/
+
+@media (max-width: 992px) {
+	h1 {
+		font-size: 1.5em;
+		line-height: 1em;
+		margin: 0.5em;
+	}
+	h5 {
+		font-size: 1.3em;
+	}
+	.event_header {
+		margin: 0em;
+		font-size: 2em !important;
+	}
+	.in_parallax_header {
+		font-size: 3em;
+		margin: 0;
+	}
+}
