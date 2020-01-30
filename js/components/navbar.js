@@ -6,13 +6,13 @@ class Navbar extends React.Component {
 	componentDidMount() {
 		// initilizating sidenav for mobile
 		var elems = document.querySelectorAll(".sidenav");
-		var instances = M.Sidenav.init(elems);
+		M.Sidenav.init(elems);
 	}
 
 	render() {
 		return (
 			<nav class="grey darken-4 " role="navigation">
-				<div class="nav-wrapper container">
+				<div class={"nav-wrapper container " + (window.innerWidth <= 992 ? "valign-wrapper" : "")}>
 					<a id="logo-container" href="index.html" class="brand-logo">
 						cal&lt;<span>hackathon</span>&gt;
 					</a>
@@ -51,7 +51,7 @@ class Navbar extends React.Component {
 							<a href="#">Başvur !</a>
 						</li>
 					</ul>
-					<a href="#" data-target="nav-mobile" class="sidenav-trigger">
+					<a href="#" data-target="nav-mobile" class="sidenav-trigger white-text">
 						<i class="material-icons">menu</i>
 					</a>
 				</div>
