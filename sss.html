@@ -22,6 +22,11 @@
 				height: auto;
 				color: rgba(255, 255, 255, 0.9);
 			}
+			@media (max-width: 992px) {
+				.header {
+					font-size: xx-large;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -31,25 +36,13 @@
 		<div class="custom-parallax parallax-container">
 			<div class="section no-pad-bot">
 				<div class="container">
-					<h1 class="header in_parallax_header"><i>&lt;hakkımızda&gt;</i></h1>
+					<h1 class="header in_parallax_header"><i>&lt;sıkça sorulan sorular&gt;</i></h1>
 				</div>
 			</div>
 			<div class="parallax"><img class="heading-banner" src="img/home.jpg" /></div>
 		</div>
 
-		<div class="container">
-			<p style="margin-top: 2%; margin-bottom: 2%; font-size: larger">
-				Cağaloğlu Anadolu Lisesi'nin Bilişim Teknikleri kulübünden Ahmet Tolga Erdönmez, Can Koçman ve Eren
-				Kazın öğrencileri olarak hepinizi selamlıyoruz. Bu sene ilkini düzenlediğimiz Hackathon'umuza hepiniz
-				hoş geldiniz. Bu etkinlikteki misyonumuz; katılımcıların gelecekteki iş ortamlarında karşılaşacakları
-				zorlu problemlere nasıl hızlı ve yaratıcı şekilde müdahale edebileceğini sınamak, vizyonumuz ise
-				ülkemizin sanayi 4.0'a geçişinde rol alacak değerli ve yetenekli kişilerin kendilerini berkitmesini
-				sağlamaktır. Okulumuzun ve idarecilerimizin de bizlere sunmuş oldukları desteklerle zeminini attığımız
-				bu etkinliğin sizler için en iyi ve en verimli şekilde geçmesi en büyük temennilerimizden biridir.
-				Umarız etkinliğimizde kaliteli zaman geçirebilir ve kendinize bir şeyler katabilirsiniz. Hepinizi 8
-				Nisan 2020 saat 19.00'da gerçekleşecek olan etkinliğimize davet ediyoruz !
-			</p>
-		</div>
+		<div class="container" id="faq_container"></div>
 		<!-- footer -->
 		<div id="footer_container"></div>
 
@@ -60,5 +53,7 @@
 
 		<script src="./js/components/navbar.js" type="text/babel"></script>
 		<script src="./js/components/footer.js" type="text/babel"></script>
+		<script src="./js/components/faq.js" type="text/babel"></script>
+		<script src="./js/components/questions.js"></script>
 	</body>
 </html>

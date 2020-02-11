@@ -1,14 +1,14 @@
 class Cards extends React.Component {
 	constructor(props) {
 		super(props);
-    }
-        
+	}
+
 	render() {
 		return (
 			<div class="section">
-				<div class={"card col "+(window.innerWidth >= 800 ? "s3 push-s2" : "")}>
+				<div class={"card col " + (window.innerWidth >= 800 ? "s3 push-s2" : "")}>
 					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="tolga.png" />
+						<img class="activator" src="img/tolga.png" />
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Ahmet Tolga Erdönmez</span>
@@ -26,9 +26,9 @@ class Cards extends React.Component {
 						</p>
 					</div>
 				</div>
-				<div class={"card col "+(window.innerWidth >= 800 ? "s3 push-s4" : "")}>
+				<div class={"card col " + (window.innerWidth >= 800 ? "s3 push-s4" : "")}>
 					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" width="auto" src="can.png" />
+						<img class="activator" width="auto" src="img/can.png" />
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Can Koçman</span>

@@ -16,7 +16,7 @@ class Navbar extends React.Component {
 					<a id="logo-container" href="index.html" class="brand-logo">
 						cal&lt;<span>hackathon</span>&gt;
 					</a>
-					{/* <img src="logo.png" alt="btlogo" height="100" class="brand-logo" id="logo-container"/> */}
+					{/* <img src="img/logo.png" alt="btlogo" height="100" class="brand-logo" id="logo-container"/> */}
 
 					{/* desktop navbar */}
 					<ul class="right hide-on-med-and-down">
@@ -30,8 +30,11 @@ class Navbar extends React.Component {
 							<a href="contact.html">İletişim</a>
 						</li>
 						<li>
-							<a href="#">Başvur !</a>
+							<a href="sss.html">S.S.S.</a>
 						</li>
+						{/*<li>
+							<a href="#">Başvur !</a>
+						</li>*/}
 					</ul>
 					{/* mobile navbar */}
 					<ul id="nav-mobile" class="sidenav">
@@ -48,8 +51,11 @@ class Navbar extends React.Component {
 							<a href="contact.html">İletişim</a>
 						</li>
 						<li>
-							<a href="#">Başvur !</a>
+							<a href="sss.html">S.S.S.</a>
 						</li>
+						{/*<li>
+							<a href="#">Başvur !</a>
+						</li>*/}
 					</ul>
 					<a href="#" data-target="nav-mobile" class="sidenav-trigger white-text">
 						<i class="material-icons">menu</i>
