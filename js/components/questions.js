@@ -48,6 +48,17 @@ const questions = [
 	},
 	{
 		index: 9,
+		query: "Istanbul dışından geliyorum, konaklama sağlayacak mısınız ?",
+		answer: "Hayır, konaklama sağlamıyoruz."
+	},
+	{
+		index: 10,
+		query: "36 saat hiç uyumadan mı geçireceğim ?",
+		answer:
+			"Hayır, yarışmacılarımızın belirli aralıklarla, sırayla dinlenebilmeleri için küçük olanaklar sağlamaya çalışacağız."
+	},
+	{
+		index: 11,
 		query: "Başka sorularım var nasıl sorabilirim ?",
 		answer:
 			"Bize calhackathon@gmail.com e-mail adresimizden veya @calhackathon instagram hesabımızdasın ulaşabilirsiniz. Size seve seve yardımcı oluruz :)"

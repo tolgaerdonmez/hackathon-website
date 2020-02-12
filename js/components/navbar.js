@@ -1,3 +1,19 @@
+function ApplyModal({ index }) {
+	return (
+		// <div>
+		<div id={"modal" + index} class="modal">
+			<div class="modal-content modal-fixed-footer black-text">
+				<h4>Başvur!</h4>
+				<p>Başvuruları yakında açacağız!</p>
+				<a href="#!" class="modal-close btn waves-effect waves-light black">
+					Tamam
+				</a>
+			</div>
+		</div>
+		// </div>
+	);
+}
+
 class Navbar extends React.Component {
 	constructor(props) {
 		super(props);
@@ -5,8 +21,10 @@ class Navbar extends React.Component {
 
 	componentDidMount() {
 		// initilizating sidenav for mobile
-		var elems = document.querySelectorAll(".sidenav");
-		M.Sidenav.init(elems);
+		const sidenav = document.querySelectorAll(".sidenav");
+		const modal = document.querySelectorAll(".modal");
+		M.Sidenav.init(sidenav);
+		M.Modal.init(modal);
 	}
 
 	render() {
@@ -32,9 +50,12 @@ class Navbar extends React.Component {
 						<li>
 							<a href="sss.html">S.S.S.</a>
 						</li>
-						{/*<li>
-							<a href="#">Başvur !</a>
-						</li>*/}
+						<li>
+							<a class="modal-trigger" href="#modal1">
+								Başvur!
+							</a>
+							<ApplyModal index={1} />
+						</li>
 					</ul>
 					{/* mobile navbar */}
 					<ul id="nav-mobile" class="sidenav">
@@ -53,9 +74,12 @@ class Navbar extends React.Component {
 						<li>
 							<a href="sss.html">S.S.S.</a>
 						</li>
-						{/*<li>
-							<a href="#">Başvur !</a>
-						</li>*/}
+						<li>
+							<a class="modal-trigger" href="#modal2">
+								Başvur!
+							</a>
+							<ApplyModal index={2} />
+						</li>
 					</ul>
 					<a href="#" data-target="nav-mobile" class="sidenav-trigger white-text">
 						<i class="material-icons">menu</i>
