@@ -8,7 +8,7 @@ class Cards extends React.Component {
 			<div class="section">
 				<div class={"card col " + (window.innerWidth >= 800 ? "s3 push-s2" : "")}>
 					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="img/tolga.png" />
+						<img class="activator" src="img/tolga.jpg" />
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Ahmet Tolga Erdönmez</span>
@@ -28,7 +28,7 @@ class Cards extends React.Component {
 				</div>
 				<div class={"card col " + (window.innerWidth >= 800 ? "s3 push-s4" : "")}>
 					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" width="auto" src="img/can.png" />
+						<img class="activator" width="auto" src="img/can.jpg" />
 					</div>
 					<div class="card-content">
 						<span class="card-title activator grey-text text-darken-4">Can Koçman</span>
