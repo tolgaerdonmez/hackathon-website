@@ -1,4 +1,7 @@
-class FAQ extends React.Component {
+import React from "react";
+import questions from "./questions.js";
+// const questions = questions;
+export default class FAQ extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -29,6 +32,3 @@ class FAQ extends React.Component {
 		);
 	}
 }
-
-const domContainer = document.querySelector("#faq_container");
-ReactDOM.render(<FAQ />, domContainer);

@@ -1,4 +1,5 @@
-class Cards extends React.Component {
+import React from "react";
+export default class Cards extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -50,6 +51,3 @@ class Cards extends React.Component {
 		);
 	}
 }
-
-const domContainer = document.querySelector("#contact_cards");
-ReactDOM.render(<Cards />, domContainer);

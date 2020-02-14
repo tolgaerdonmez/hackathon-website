@@ -1,20 +1,11 @@
-function ApplyModal({ index }) {
-	return (
-		// <div>
-		<div id={"modal" + index} class="modal">
-			<div class="modal-content modal-fixed-footer black-text">
-				<h4>Başvur!</h4>
-				<p>Başvuruları yakında açacağız!</p>
-				<a href="#!" class="modal-close btn waves-effect waves-light black">
-					Tamam
-				</a>
-			</div>
-		</div>
-		// </div>
-	);
-}
+import GenModal from "./modal";
+import React from "react";
 
-class Navbar extends React.Component {
+const ApplyModal = ({ index }) => (
+	<GenModal index={index} title="Başvur!" content="Başvuruları yakında açacağız!" buttonTitle="Tamam" />
+);
+
+export default class Navbar extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -89,6 +80,3 @@ class Navbar extends React.Component {
 		);
 	}
 }
-
-const domContainer = document.querySelector("#navbar_container");
-ReactDOM.render(<Navbar />, domContainer);

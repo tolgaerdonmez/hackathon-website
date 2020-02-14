@@ -53,3 +53,5 @@ const questions = [
 			"Bize hackathon2020cal@gmail.com e-mail adresimizden veya @calhackathon instagram hesabımızdasın ulaşabilirsiniz. Size seve seve yardımcı oluruz :)"
 	}
 ];
+
+export default questions;

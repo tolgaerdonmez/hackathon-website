@@ -12,9 +12,9 @@
 		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 		<!-- React.js -->
-		<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+		<!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
 
 		<style>
 			.parallax-container {
@@ -53,9 +53,20 @@
 					<a class="btn waves-effect waves-light red darken-4" href="docs/etkinlik.pdf" target="_blank"
 						>Etkinlik</a
 					>
-					<a class="btn waves-effect waves-light red darken-4" href="docs/sponsorluk.pdf" target="_blank"
-						>Sponsorluk</a
-					>
+					<!-- <a class="btn waves-effect waves-light red darken-4" href="open-modal" target="_blank">Sponsorluk</a
+					> -->
+					<a class="modal-trigger btn waves-effect waves-light red darken-4" href="#modal3">
+						Sponsorluk
+					</a>
+					<div id="modal3" class="modal">
+						<div class="modal-content modal-fixed-footer black-text">
+							<h4>Sponsorluk Dosyası</h4>
+							<p>Sponsorluk Dosyası için lütfen bize eposta atınız</p>
+							<a href="#!" class="modal-close btn waves-effect waves-light black">
+								Tamam
+							</a>
+						</div>
+					</div>
 				</h6>
 			</div>
 			<div class="divider"></div>
@@ -69,8 +80,6 @@
 		<script src="js/materialize.js"></script>
 		<script src="js/init.js"></script>
 
-		<script src="./js/components/navbar.js" type="text/babel"></script>
-		<script src="./js/components/footer.js" type="text/babel"></script>
-		<script src="./js/components/contactCards.js" type="text/babel"></script>
+		<script src="./js/dist/main.js"></script>
 	</body>
 </html>

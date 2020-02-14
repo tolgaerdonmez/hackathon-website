@@ -12,9 +12,9 @@
 		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 		<!-- React.js -->
-		<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+		<!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
 
 		<style>
 			.parallax-container {
@@ -92,7 +92,9 @@
 			<div class="section no-pad-bot no-mar-top">
 				<div class="container">
 					<div class="row center">
-						<h1 class="header col s12 light event_header">Etkinlik Programı</h1>
+						<h1 class="header col s12 light event_header">
+							Etkinlik Programı
+						</h1>
 					</div>
 				</div>
 			</div>
@@ -100,13 +102,16 @@
 				<img src="img/schedule.jpeg.jpeg" alt="Unsplashed background img 3" />
 			</div>
 		</div>
-		<div class="row">
+
+		<div class="row container">
 			<div class="col s12">
 				<ul class="tabs z-depth-1 darkred ">
 					<li class="tab col s4">
 						<a class="active" href="#8" style="color: darkred; font-size: larger;">8 Nisan 2020</a>
 					</li>
-					<li class="tab col s4"><a href="#9" style="color: darkred; font-size: larger;">9 Nisan 2020</a></li>
+					<li class="tab col s4">
+						<a href="#9" style="color: darkred; font-size: larger;">9 Nisan 2020</a>
+					</li>
 					<li class="tab col s4">
 						<a href="#10" style="color: darkred; font-size: larger;">10 Nisan 2020</a>
 					</li>
@@ -126,11 +131,15 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th style="text-align: left;">20.00</th>
+							<th style="text-align: left;">19.00</th>
 							<th>Açılış</th>
 						</tr>
 						<tr>
-							<th style="text-align: left;">20.40</th>
+							<th style="text-align: left;">19.30</th>
+							<th>Özgür Yazılım Nedir ?</th>
+						</tr>
+						<tr>
+							<th style="text-align: left;">20.00</th>
 							<th>Temanın Açıklanması</th>
 						</tr>
 						<tr>
@@ -167,15 +176,15 @@
 							<th>Gece Atıştırmalığı</th>
 						</tr>
 						<tr>
-							<th style="text-align: left;">09.00</th>
+							<th style="text-align: left;">07.30</th>
 							<th>Kahvaltı</th>
 						</tr>
 						<tr>
-							<th style="text-align: left;">14.00</th>
+							<th style="text-align: left;">12.00</th>
 							<th>Öğlen Yemeği</th>
 						</tr>
 						<tr>
-							<th style="text-align: left;">19.00</th>
+							<th style="text-align: left;">18.00</th>
 							<th>Akşam Yemeği</th>
 						</tr>
 						<tr>
@@ -235,7 +244,6 @@
 		<script src="js/materialize.js"></script>
 		<script src="js/init.js"></script>
 
-		<script src="./js/components/navbar.js" type="text/babel"></script>
-		<script src="./js/components/footer.js" type="text/babel"></script>
+		<script src="./js/dist/main.js"></script>
 	</body>
 </html>

@@ -1,4 +1,6 @@
-class Footer extends React.Component {
+import React from "react";
+
+export default class Footer extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -13,6 +15,3 @@ class Footer extends React.Component {
 		);
 	}
 }
-
-const domContainer = document.querySelector("#footer_container");
-ReactDOM.render(<Footer />, domContainer);
