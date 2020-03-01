@@ -125,3 +125,30 @@ footer.page-footer {
 		margin: 0;
 	}
 }
+
+.red-tint {
+	position: relative;
+}
+
+.red-tint:after {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #8b0000;
+	top: 0;
+	left: 0;
+	display: block;
+	content: "";
+	filter: opacity(0.5);
+}
+
+.sponsorship-banner {
+	filter: grayscale(1);
+}
+
+.sponsors-showcase {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 100px 0 100px;
+}
