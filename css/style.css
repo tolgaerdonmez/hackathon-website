@@ -200,7 +200,7 @@ footer.page-footer {
 }
 
 h1 {
-	line-height: 0.2em;
+	line-height: 1em;
 }
 
 /* mobile media */
@@ -219,7 +219,7 @@ h1 {
 	.event_header {
 		margin: 0em;
 		line-height: 0em;
-		font-size: 2em !important;
+		font-size: 8vw !important;
 	}
 	.in_parallax_header {
 		font-size: 3em;
@@ -247,5 +247,24 @@ h1 {
 		box-sizing: border-box;
 		width: 170px;
 		height: 150px;
+	}
+}
+
+@media (max-width: 450px) {
+	h1 {
+		font-size: 1.65em;
+		line-height: 1em;
+		margin: 0.5em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	h5 {
+		font-size: 1.3em;
+	}
+	.event_header {
+		margin: 0em;
+		/* line-height: 1em; */
+		font-size: 10vw !important;
 	}
 }
