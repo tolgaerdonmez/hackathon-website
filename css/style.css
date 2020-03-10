@@ -51,6 +51,9 @@ p {
 .parallax-container .section {
 	width: 100%;
 }
+.valign-wrapper {
+	font-size: 1.5em;
+}
 
 @media only screen and (max-width: 992px) {
 	.parallax-container .section {
@@ -109,25 +112,6 @@ footer.page-footer {
 	background-color: darkred;
 } /*Color of underline*/
 
-@media (max-width: 992px) {
-	h1 {
-		font-size: 1.5em;
-		line-height: 1em;
-		margin: 0.5em;
-	}
-	h5 {
-		font-size: 1.3em;
-	}
-	.event_header {
-		margin: 0em;
-		font-size: 2em !important;
-	}
-	.in_parallax_header {
-		font-size: 3em;
-		margin: 0;
-	}
-}
-
 .red-tint {
 	position: relative;
 }
@@ -155,15 +139,21 @@ footer.page-footer {
 	padding: 0 100px 0 100px;
 }
 
+.sponsors-showcase a img {
+	width: 250px;
+}
+
 .red-banner {
 	position: relative;
+	border-bottom: 0.3em solid #820000;
 }
 
 .red-banner:after {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-color: #820000;
+	background-color: #212121;
+	/* border-bottom: 0.5em solid #820000; */
 	top: 0;
 	left: 0;
 	display: block;
@@ -177,12 +167,26 @@ footer.page-footer {
 	align-items: center;
 }
 
+.jurys-showcase .jurys-showcase {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+}
+
 .jury-single {
-	margin: 2.5% 5% 2.5% 5%;
+	margin: 1.5em;
 }
 
 .jury-single a img {
-	margin-bottom: 0.5em;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.jurys-showcase:last-child .jury-single:last-child a img {
+	border: 3px solid black;
 }
 
 .jury-single a {
@@ -195,8 +199,53 @@ footer.page-footer {
 	justify-content: center;
 }
 
-.jury-img {
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
+h1 {
+	line-height: 0.2em;
+}
+
+/* mobile media */
+@media (max-width: 992px) {
+	h1 {
+		font-size: 2em;
+		/* line-height: 0.2em; */
+		margin: 0.5em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	h5 {
+		font-size: 1.3em;
+	}
+	.event_header {
+		margin: 0em;
+		line-height: 0em;
+		font-size: 2em !important;
+	}
+	.in_parallax_header {
+		font-size: 3em;
+		margin: 0;
+	}
+
+	.sponsors-showcase a img {
+		width: 150px;
+	}
+
+	.jurys-showcase {
+		flex-direction: column;
+	}
+	.jurys-showcase .jurys-showcase {
+		flex-direction: row;
+	}
+	.jury-single a {
+		font-size: 1.5em;
+	}
+	.jury-single a img {
+		width: 125px;
+		height: 125px;
+	}
+	.jury-single {
+		box-sizing: border-box;
+		width: 170px;
+		height: 150px;
+	}
 }
